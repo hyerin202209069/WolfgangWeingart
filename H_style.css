@@ -1,0 +1,130 @@
+*{ margin: 0; text-decoration: none; list-style-type: none; }
+
+.logo{
+    width: 100%; height: 74px; background-color: #F1EEF6; padding: 13px 0px;
+    display: flex;  justify-content: center;
+    filter: drop-shadow(0px 0px 3px rgb(183, 183, 183));
+}
+.menu{
+    position: absolute; right: 5%;
+    width: 460px; height: 40px; top: 120px;
+    border: 1px solid black;
+    display: flex; justify-content: space-between;
+}
+.Mu{
+    width: 25%; height: 40px; border: 1px solid black;
+    text-align: center; font-size: 20px; letter-spacing: -0.5px;
+}
+.Mu a{
+    display: block; color: black; padding: 6px 0px 7px 0px; transform: all 0.3;
+}
+.main a{ color: #fff; background-color: #8066B0; font-weight: 500; }
+.menu a:hover{
+    color: #fff; background-color: #8066B0;
+    font-weight: 500; transform: all 0.3;
+}
+
+.tit{
+    width: 100%; height: 800px; padding-top: 150px;
+    background-image:url(img/H_tit.png); background-repeat: no-repeat; background-position-x: center; background-position-y: center; background-size: 100%;
+}
+.WWG{ width: 100%; height: 500px; text-align: center; }
+
+.Cp1{width: 100%; height: 900px; }
+.bg01{ width: 30%; height: 160px; padding: 0px 0px 50px; }
+.intr{ position: absolute; left: 5%; padding-top: 400px; max-width: 90%;}
+.H01{ float: right; padding-right: 5%;}
+
+
+h1{ font-size: 50px; font-weight: 200; color: #8066B0; padding: 50px 7% 20px;}
+p{ width: 80%; font-size: 18px; line-height: 30px; padding: 40px; margin: 0 auto; }
+
+.school{
+    width: 100%; height: 500px;
+    display: flex; justify-content: center;
+    background-image:url(img/H_02.png); background-repeat: no-repeat; background-position-x: center;background-position-y: center; background-size: 80%;
+}
+
+.Cp3{ height: 1200px;}
+.poster{ width: 40%; height: 450px; position: absolute;
+     background-image:url(img/H_03.png); background-repeat: no-repeat; background-position-x: right;background-position-y: center; background-size: 80%;
+}
+.ps3{
+    width: 45%; font-size: 18px; line-height: 30px;
+    padding: 0px 50px; float: right; margin-right: 5%;
+}
+
+
+
+.wrap{ position: absolute; width: 100%; bottom: 0px}
+footer{
+    width: 100%; height: 125px;
+    position: relative; padding-top: 25px;
+    background-color: #C5BFD1;
+    display: flex;  justify-content: center;
+}
+.all{ position: absolute; width: 90%; height: 100px; border: solid 2px #64587A;}
+.ft{ position: absolute; border: solid 1px #64587A;}
+.top{ width: 100%; height: 25px;}
+.sub_logo{
+    width: 10%; height: 75px; left: 0px;
+    text-align: center; margin-top: 25px;
+}
+.sub_menu{
+    width: 35%; height: 40px; left: 10%; display: flex; justify-content: center;
+    text-align: center; margin-top: 25px; padding-top: 10px; 
+    font-size: 16px; font-weight: 400; color: #64587A;
+}
+.sub_menu a{ color: #64587A; padding: 8px; }
+.sub_menu b{font-size:20px; font-weight: 800;}
+.copy{
+    width: 35%; height: 23px; left: 10%;
+    text-align: center; margin-top: 75px; padding-top: 2px;
+    font-size: 15px; font-weight: 400; color: #64587A;
+}
+.site{
+    width: 55%; height: 75px; left: 45%;
+    text-align: center; margin-top: 25px;
+}
+.site select {
+    width: 55% ; height: 25px; margin: 25px;
+    position: absolute; left: 0px;
+    font-size: 15px; font-weight: 100; color: #64587A;
+}
+.icon{
+    width: 150px; height: 45px; margin: 15px;
+    position: absolute; right: 5%;
+    display: flex; justify-content: space-between;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    .menu{ right: 10px; width: 400px; height: 35px; }
+    .Mu{ font-size: 18px; height: 35px; }
+    .Mu a{ padding: 6px 0px 5px 0px; }
+
+    .tit{ height: 350px; background-size: 130%; background-position-x: left;}
+    .WWG{ height: 300px; width: 90%;}
+    .intr{ padding-top: 550px;}
+    h1{ font-size: 40px;}
+    .bg01{width: 100%;}
+    .school{ height: 200px;}
+    .poster{ width: 100%; background-position-x: center;}
+    .ps3{ width: 80%; margin: 500px 0px 100px;}
+
+
+    footer{ height: 200px;}
+    .all{ height: 175px;}
+    .sub_logo{ width: 25%;}
+    .sub_menu{ left: 25%; width: 75%;}
+    .sub_menu a{ padding: 1px;}
+
+    .copy{ left: 25%; width: 75%;}
+    .site{ width: 100%;left: 0px; margin-top: 100px;}
+
+    .site select { width: 45%; }
+    .icon{ width: 140px; right: 3%; }
+}

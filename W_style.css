@@ -1,0 +1,135 @@
+*{ margin: 0; text-decoration: none; list-style-type: none; }
+
+.logo{
+    width: 100%; height: 74px; background-color: #F1EEF6; padding: 13px 0px;
+    display: flex;  justify-content: center;
+    filter: drop-shadow(0px 0px 3px rgb(183, 183, 183));
+}
+.menu{
+    position: absolute; right: 5%;
+    width: 460px; height: 40px; top: 120px;
+    border: 1px solid black;
+    display: flex; justify-content: space-between;
+}
+.Mu{
+    width: 25%; height: 40px; border: 1px solid black;
+    text-align: center; font-size: 20px; letter-spacing: -0.5px;
+}
+.Mu a{
+    display: block; color: black; padding: 6px 0px 7px 0px; transform: all 0.3;
+}
+.main a{ color: #fff; background-color: #8066B0; font-weight: 500; }
+.menu a:hover{
+    color: #fff; background-color: #8066B0;
+    font-weight: 500; transform: all 0.3;
+}
+
+
+
+.tit{
+    width: 100%; height: 630px; padding-top: 150px;
+    background-image:url(img/W_tit.png); background-repeat: no-repeat; background-position-x: center; background-position-y: bottom; background-size: 100%;
+}
+.bg{
+    width: 90%; height: 800px; margin: 0 auto;
+    background-image:url(img/bg04.png); background-repeat: no-repeat; background-position-x: center; background-position-y: top; background-size: 100%;
+}
+
+
+
+.W01{ width: 100%; height: 1000px; padding-bottom: 100px; padding-top: 100px; }
+.W02{ width: 100%; height: 1000px; padding-bottom: 100px; }
+.W03{ width: 100%; height: 1000px; padding-bottom: 100px; }
+.st{  position: absolute; width: 88px; height: 400px; padding-top: 200px; left: 5%; }
+.st1{ background-image:url(img/W_01.png); background-repeat: no-repeat; background-position-x: center; background-position-y: center; background-size: 100%; }
+.st2{ background-image:url(img/W_02.png); background-repeat: no-repeat; background-position-x: center; background-position-y: center; background-size: 100%; }
+.st3{ background-image:url(img/W_03.png); background-repeat: no-repeat; background-position-x: center; background-position-y: center; background-size: 100%; }
+
+.W11{
+    position: absolute; width: 730px; right: 10%; margin-top: 70px;
+}
+.W1{ position: absolute;}
+.W2{ position: absolute; right: 0px; }
+.W3{ position: absolute; margin-top: 470px; }
+.W4{ position: absolute; margin-top: 470px; right: 0px; }
+
+
+
+
+
+
+
+
+
+.wrap{ position: absolute; width: 100%; bottom: 0px}
+footer{
+    width: 100%; height: 125px;
+    position: relative; padding-top: 25px;
+    background-color: #C5BFD1;
+    display: flex;  justify-content: center;
+}
+.all{ position: absolute; width: 90%; height: 100px; border: solid 2px #64587A;}
+.ft{ position: absolute; border: solid 1px #64587A;}
+.top{ width: 100%; height: 25px;}
+.sub_logo{
+    width: 10%; height: 75px; left: 0px;
+    text-align: center; margin-top: 25px;
+}
+.sub_menu{
+    width: 35%; height: 40px; left: 10%; display: flex; justify-content: center;
+    text-align: center; margin-top: 25px; padding-top: 10px; 
+    font-size: 16px; font-weight: 400; color: #64587A;
+}
+.sub_menu a{ color: #64587A; padding: 8px;}
+.sub_menu b{font-size:20px; font-weight: 800;}
+.copy{
+    width: 35%; height: 23px; left: 10%;
+    text-align: center; margin-top: 75px; padding-top: 2px;
+    font-size: 15px; font-weight: 400; color: #64587A;
+}
+.site{
+    width: 55%; height: 75px; left: 45%;
+    text-align: center; margin-top: 25px;
+}
+.site select {
+    width: 55% ; height: 25px; margin: 25px;
+    position: absolute; left: 0px;
+    font-size: 15px; font-weight: 100; color: #64587A;
+}
+.icon{
+    width: 150px; height: 45px; margin: 15px;
+    position: absolute; right: 5%;
+    display: flex; justify-content: space-between;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .menu{ right: 10px; width: 400px; height: 35px; }
+    .Mu{ font-size: 18px; height: 35px; }
+    .Mu a{ padding: 6px 0px 5px 0px; }
+
+    .tit{ height: 350px; background-size: 130%; background-position-x: left;}
+    .bg{ height: 500px;}
+    .st{ position: relative;}
+    .W01{ height: 2500px; }
+    .W02{ height: 2500px; }
+    .W03{ height: 2500px; }
+    .W11{ width: 360px; }
+    .W2{ margin-top: 470px; }
+    .W3{ margin-top: 940px; }
+    .W4{ margin-top: 1410px; right: 0px; }
+
+
+    footer{ height: 200px;}
+    .all{ height: 175px;}
+    .sub_logo{ width: 25%;}
+    .sub_menu{ left: 25%; width: 75%;}
+    .sub_menu a{ padding: 1px;}
+
+    .copy{ left: 25%; width: 75%;}
+    .site{ width: 100%;left: 0px; margin-top: 100px;}
+
+    .site select { width: 45%; }
+    .icon{ width: 140px; right: 3%; }
+}
